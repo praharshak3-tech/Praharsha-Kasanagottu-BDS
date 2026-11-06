@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: lab3-books-rest-api
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: PORT
+        value: 3000
+      - key: DB_FILE
+        value: ./books.db
+    plan: free

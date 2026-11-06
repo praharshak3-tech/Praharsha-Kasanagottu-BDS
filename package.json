@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Lab 3: REST API, Query Parameters, Validation & Debugging - Backend Development Fundamentals",
   "main": "server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "start": "node server.js",
     "dev": "node --watch server.js",
