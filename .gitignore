@@ -18,3 +18,6 @@ npm-debug.log*
 # OS Files
 .DS_Store
 Thumbs.db
+
+# Lock file (let Render generate fresh on Linux)
+package-lock.json
