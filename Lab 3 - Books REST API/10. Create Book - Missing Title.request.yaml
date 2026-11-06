@@ -1,0 +1,14 @@
+$kind: http-request
+description: "Task 4: Validation test - reject missing title with HTTP 400."
+url: "{{base_url}}/books"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "author": "Andrew Hunt",
+      "price": 499.00
+    }
+order: 10000

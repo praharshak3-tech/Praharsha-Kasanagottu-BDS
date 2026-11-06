@@ -1,0 +1,9 @@
+$kind: http-request
+description: "Task 2: Partial title match using search_q."
+url: "{{base_url}}/books?search_q=Gatsby"
+method: GET
+queryParams:
+  - key: search_q
+    value: Gatsby
+    description: Partial title search using SQL LIKE
+order: 2000

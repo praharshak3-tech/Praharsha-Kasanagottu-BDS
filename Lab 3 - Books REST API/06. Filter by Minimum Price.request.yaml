@@ -1,0 +1,7 @@
+$kind: http-request
+description: "Task 3: Filter books where price >= 400."
+url: "{{base_url}}/books?min_price=400"
+method: GET
+queryParams:
+  min_price: "400"
+order: 6000

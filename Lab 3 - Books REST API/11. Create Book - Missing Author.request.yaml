@@ -1,0 +1,14 @@
+$kind: http-request
+description: "Task 4: Validation test - reject missing author with HTTP 400."
+url: "{{base_url}}/books"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "title": "Mysterious Novel",
+      "price": 299.00
+    }
+order: 11000

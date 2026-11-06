@@ -1,0 +1,7 @@
+$kind: collection
+description: |-
+  Postman Collection for College Lab 3: REST API, Query Parameters, Validation & Debugging.
+  Course: Backend Development Fundamentals (BDF) - Year II.
+  Student: Kasanagottu Praharsha (252U1R5067).
+variables:
+  base_url: http://localhost:3000

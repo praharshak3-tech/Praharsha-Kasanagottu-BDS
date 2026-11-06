@@ -1,0 +1,13 @@
+# Use this workspace to collaborate
+workspace:
+  id: 74f34558-d3e4-4104-8f4c-e624ddd57247
+
+localResources:
+  collections:
+    - ../Lab 3 - Books REST API
+
+# Each entry here maps a local resource to one or more corresponding objects in Postman Cloud
+
+cloudResources:
+  collections:
+    ../Lab 3 - Books REST API: c1f7b8e2-8ab0-47c6-879a-7089ddd966e0

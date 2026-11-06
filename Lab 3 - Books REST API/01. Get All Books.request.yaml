@@ -1,0 +1,5 @@
+$kind: http-request
+description: "Task 1: Retrieve all books from the database with default query parameters."
+url: "{{base_url}}/books"
+method: GET
+order: 1000

@@ -1,0 +1,8 @@
+$kind: http-request
+description: "Task 3: Filter books using SQL BETWEEN (300 to 500)."
+url: "{{base_url}}/books?min_price=300&max_price=500"
+method: GET
+queryParams:
+  min_price: "300"
+  max_price: "500"
+order: 8000

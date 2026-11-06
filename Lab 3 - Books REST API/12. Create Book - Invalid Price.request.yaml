@@ -1,0 +1,15 @@
+$kind: http-request
+description: "Task 4: Validation test - reject non-numeric price with HTTP 400."
+url: "{{base_url}}/books"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "title": "Non-numeric Pricing",
+      "author": "Anonymous",
+      "price": "not_a_number"
+    }
+order: 12000

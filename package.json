@@ -1,0 +1,28 @@
+{
+  "name": "lab-3-rest-api",
+  "version": "1.0.0",
+  "description": "Lab 3: REST API, Query Parameters, Validation & Debugging - Backend Development Fundamentals",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test:api": "node test-api.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "sqlite",
+    "rest-api",
+    "backend-lab-3",
+    "query-parameters",
+    "validation"
+  ],
+  "author": "Kasanagottu Praharsha (252U1R5067)",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^6.0.1"
+  }
+}

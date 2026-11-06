@@ -1,0 +1,15 @@
+$kind: http-request
+description: "Task 1: Update an existing book with ID 1 (HTTP 200)."
+url: "{{base_url}}/books/1"
+method: PUT
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "title": "The Pragmatic Programmer - 20th Anniversary Edition",
+      "author": "David Thomas & Andrew Hunt",
+      "price": 699.00
+    }
+order: 13000

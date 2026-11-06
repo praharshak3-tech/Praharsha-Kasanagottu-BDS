@@ -1,0 +1,5 @@
+$kind: http-request
+description: "Task 1: Delete an existing book by ID (HTTP 200)."
+url: "{{base_url}}/books/1"
+method: DELETE
+order: 15000

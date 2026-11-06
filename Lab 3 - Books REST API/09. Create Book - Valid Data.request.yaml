@@ -1,0 +1,15 @@
+$kind: http-request
+description: "Task 4: Create a book with valid title, author, and price (HTTP 201)."
+url: "{{base_url}}/books"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "title": "The Pragmatic Programmer",
+      "author": "David Thomas & Andrew Hunt",
+      "price": 599.00
+    }
+order: 9000

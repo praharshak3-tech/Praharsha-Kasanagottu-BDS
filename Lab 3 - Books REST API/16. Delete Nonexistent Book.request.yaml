@@ -1,0 +1,5 @@
+$kind: http-request
+description: "Task 5: Delete a nonexistent book ID (HTTP 404)."
+url: "{{base_url}}/books/9999"
+method: DELETE
+order: 16000

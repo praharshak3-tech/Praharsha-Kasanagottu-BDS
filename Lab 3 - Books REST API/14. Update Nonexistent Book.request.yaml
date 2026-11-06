@@ -1,0 +1,15 @@
+$kind: http-request
+description: "Task 5: Update a nonexistent book ID (HTTP 404)."
+url: "{{base_url}}/books/9999"
+method: PUT
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "title": "Non-existent Book",
+      "author": "Ghost",
+      "price": 450.00
+    }
+order: 14000

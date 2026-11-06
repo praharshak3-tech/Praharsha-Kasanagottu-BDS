@@ -1,0 +1,8 @@
+$kind: http-request
+description: "Task 2: Sort books in descending order by price."
+url: "{{base_url}}/books?order_by=price&order=DESC"
+method: GET
+queryParams:
+  order_by: price
+  order: DESC
+order: 4000
