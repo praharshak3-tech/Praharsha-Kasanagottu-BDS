@@ -8,6 +8,21 @@
 
 ---
 
+## 🌐 Live Deployment
+
+> **API is live on Render:**  
+> 🔗 **https://praharsha-kasanagottu-bds-1.onrender.com/**
+
+| Endpoint | URL |
+|:---|:---|
+| Welcome / Info | https://praharsha-kasanagottu-bds-1.onrender.com/ |
+| All Books | https://praharsha-kasanagottu-bds-1.onrender.com/books |
+| Search | https://praharsha-kasanagottu-bds-1.onrender.com/books?search_q=Gatsby |
+| Sort by Price | https://praharsha-kasanagottu-bds-1.onrender.com/books?order_by=price&order=DESC |
+| Price Range | https://praharsha-kasanagottu-bds-1.onrender.com/books?min_price=300&max_price=500 |
+
+---
+
 ## 📋 Table of Contents
 1. [Project Overview](#-project-overview)
 2. [Technologies Used](#-technologies-used)
